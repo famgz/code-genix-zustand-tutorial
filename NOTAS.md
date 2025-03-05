@@ -9,3 +9,5 @@
 `npx shadcn@latest add button`
 
 `npm i zustand`
+
+`npm i immer`
