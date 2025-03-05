@@ -14,16 +14,20 @@ type UserActions = {
 
 export type UserSlice = UserState & UserActions;
 
+const initialState: UserState = {
+  address: '',
+  age: 0,
+  fullName: '',
+  userName: '',
+};
+
 export const createUserSlice: StateCreator<
   Store,
   [['zustand/immer', never]],
   [],
   UserSlice
 > = (set) => ({
-  address: '',
-  age: 0,
-  fullName: '',
-  userName: '',
+  ...initialState,
   setAddress: (address) =>
     set((state) => {
       state.address = address;
