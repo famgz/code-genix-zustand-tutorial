@@ -12,6 +12,10 @@
 
 `npx shadcn@latest add popover`
 
+`npx shadcn@latest add input`
+
+`npx shadcn@latest add label`
+
 `npm i zustand`
 
 `npm i immer`

@@ -8,6 +8,7 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
+import User from '@/components/user';
 import { PRODUCTS_DATA } from '@/lib/mock-data';
 import { useStore } from '@/store/store';
 import { useShallow } from 'zustand/react/shallow';
@@ -34,7 +35,10 @@ export default function App() {
 
   return (
     <main className='space-y-2 dark min-h-screen bg-background max-w-sm mx-auto mt-2'>
-      <Cart />
+      <div className='flex justify-between'>
+        <User />
+        <Cart />
+      </div>
       <h1 className='text-2xl'>Products:</h1>
 
       <div className='space-y-2'>
