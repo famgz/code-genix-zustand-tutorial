@@ -8,6 +8,8 @@
 
 `npx shadcn@latest add button`
 
+`npx shadcn@latest add card`
+
 `npm i zustand`
 
 `npm i immer`

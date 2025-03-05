@@ -57,7 +57,9 @@ export const createCartSlice: StateCreator<
     }),
 
   addProduct: (product) =>
-    set((state) => state.products.push({ ...product, quantity: 1 })),
+    set((state) => {
+      state.products.push({ ...product, quantity: 1 });
+    }),
 
   removeProduct: (productId) =>
     set((state) => {
