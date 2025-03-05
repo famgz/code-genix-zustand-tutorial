@@ -10,6 +10,8 @@
 
 `npx shadcn@latest add card`
 
+`npx shadcn@latest add popover`
+
 `npm i zustand`
 
 `npm i immer`

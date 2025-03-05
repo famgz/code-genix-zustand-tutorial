@@ -1,3 +1,4 @@
+import Cart from '@/components/cart';
 import ChangeQuantityButtons from '@/components/change-quantity-buttons';
 import { Button } from '@/components/ui/button';
 import {
@@ -33,6 +34,7 @@ export default function App() {
 
   return (
     <main className='space-y-2 dark min-h-screen bg-background max-w-sm mx-auto mt-2'>
+      <Cart />
       <h1 className='text-2xl'>Products:</h1>
 
       <div className='space-y-2'>
